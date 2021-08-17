@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.catalina.connector.Response;
-
 /**
  * Servlet implementation class LifeCycleServlet
  */
@@ -39,7 +37,6 @@ public class LifeCycleServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		super.doGet(req, resp);
-		
 	}
 
 	@Override
