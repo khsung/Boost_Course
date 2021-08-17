@@ -1,0 +1,82 @@
+@charset "UTF-8";
+body{
+	background: gray;
+	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+header{
+	background: white;
+	text-align:right;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:20px;
+}
+
+header>button{
+	width:150px;
+	height:30px;
+	margin:0,10,10,0;
+	padding:0,10,10,0;
+	color:blue;
+	border:none;
+	background-color:teal;
+	border-radius:5px;
+	box-shadow:2px 2px 2px 2px gray;
+	cursor: pointer;
+}
+
+.index_section{
+	text-align:center;
+	background: white;
+	margin-top:20px;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.index_section>button{
+	color:white;
+	border:none;
+	background-color:teal;
+	border-radius:5px;
+	width:130px;
+	height:130px;
+	cursor: pointer;
+}
+
+.aboutme_section{
+	margin-top:20px;
+	padding-top:30px;
+	padding-left:80px;
+	padding-bottom:10px;
+	padding-right:80px;
+	background: white;
+}
+
+.photo_section{
+	background: white;
+	margin-top:20px;
+	padding-left:50px;
+}
+
+.photo_section>div{
+	padding-top:50px;
+	display:inline-block;
+	padding-bottom:50px;
+}
+.photo_section>div>p{
+	margin-left:300px;
+}
+.photo_section>div>img{
+	float: left;
+	height:200px;
+	width:200px;
+	border:10px solid gray;
+}
+
+footer{
+	margin-top:20px;
+	background: white;
+	text-align:center;
+	padding:8px;
+}
