@@ -17,7 +17,7 @@
 
 <%
 	pageContext.setAttribute("p1", "page scope");
-	request.setAttribute("r1", "request scop");
+	request.setAttribute("r1", "request scop");i
 	session.setAttribute("s1","session");
 	application.setAttribute("a1", "application");
 	
